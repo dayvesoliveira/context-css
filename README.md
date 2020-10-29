@@ -31,7 +31,14 @@ CSS Modules let you use the same CSS class name in different files without worry
 }
 ```
 
-The Result will be
+The Result will be:
+
+```
+<button type="button" class="style_Button__2-Hlg">Button 1</button>
+<button type="button" class="style_Button__3HWlX">Button 2</button>
+```
+
+No clashes from other .Button class names.
 
 ## Available Scripts
 
